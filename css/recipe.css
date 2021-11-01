@@ -1,0 +1,179 @@
+@font-face {
+    font-family: "RobotCrush";
+    src: url("../fonts/RobotCrush.ttf");
+}
+
+@font-face {
+    font-family: "BebasNeue";
+    src: url("../fonts/BebasNeue-Regular.ttf");
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #222222;
+    font-family: "BebasNeue";
+    font-size: 30px;
+    color: white;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+h1,h2,h3
+{
+    font-family: "RobotCrush";
+    letter-spacing: 10px;
+}
+
+.topRow
+{
+    position: sticky;
+    display: flex;
+    height: 60px;
+    background-color: #211cf6;
+    width: 100%;
+}
+
+.topRow h3
+{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: 40px;
+    align-items: center;
+    line-height: normal;
+}
+
+.presentation
+{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.presentation h1
+{
+    font-size: 95px;
+}
+
+.blueBack
+{
+    display: flex;
+    background-color: #211cf6;
+    width:100%;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    height: 150px;
+    flex-wrap: wrap;
+}
+
+.blueTitle
+{
+    background-color: #211cf6;
+    width: 100%;
+}
+
+.blueTitle p
+{
+    text-align: right;
+    font-size: 21px;
+    padding-right: 15px;
+}
+
+.blueTitle h1
+{
+    text-align: right;
+    margin-right: 35px;
+}
+
+.content
+{
+    width: 1200px;
+    margin: auto;
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.content h2
+{
+    font-size: 62px;
+    text-align: left;
+    margin-left: 35px;
+}
+
+.content ul
+{
+    list-style-type: none;
+    align-items: center;
+    margin-top: 55px;
+}
+
+.content li
+{
+    font-size: 30px;
+    letter-spacing: 8px;
+    padding-top: 50px;
+}
+
+.directionList
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.directionIndex
+{
+    background-color: #211cf6;
+    flex:1;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.directionIndex h1
+{
+    font-family: "BebasNeue";
+    font-size: 90px;
+}
+
+.directionText
+{
+    flex:4;
+    padding: 20px;
+}
+
+.directionText p
+{
+    font-size: 25px;
+    letter-spacing: 8px;
+    padding-top: 50px;
+    line-height:60px;
+
+}
+
+.pRight
+{
+    text-align: right;
+}
+.pLeft
+{
+    text-align: left;
+}

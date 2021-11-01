@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "RobotCrush";
+    src: url("../fonts/RobotCrush.ttf");
+}
+
+@font-face {
+    font-family: "BebasNeue";
+    src: url("../fonts/BebasNeue-Regular.ttf");
+}
+
+body
+{
+    background-color: #211cf6;
+    color: white;
+    font-family: "RobotCrush";
+}
+
+h1
+{
+    letter-spacing: 0.6em;
+    font-size: 75px;
+}
+
+a
+{
+    color: white;
+    font-size: 2em;
+    font-family: "BebasNeue";
+    letter-spacing: 10px;
+}
+
+div
+{
+    margin-top:120px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+ul
+{
+    list-style-type:none;
+    
+}
+
+li:before {
+    content:"-";
+    font-size:60px;
+    vertical-align:middle;
+}
